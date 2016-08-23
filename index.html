@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Register a new account:</h3>
+      <form id="register" class="form-group">
+        <label>Name</label>
+        <input id="name" required type="text" placeholder="enter a name"></input>
+        <label>Initial Deposit</label>
+        <input id="initialDeposit" required type="text" placeholder="enter inital deposit"></input>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="container">
+      <h3>Deposit or withdraw funds:</h3>
+      <form id="changeFunds" class="form-group">
+        <label>Deposit Amount:</label>
+        <input id="deposit" type="number" placeholder="deposit amount"></input>
+        <label>Withdraw Amount</label>
+        <input id="withdraw" type="number" placeholder="withdraw amount"></input>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="container">
+      <h3>Current Balance</h3>
+    </div>
+  </body>
+</html>
